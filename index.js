@@ -5,7 +5,7 @@ const elemGreet = document.querySelector('.greetings')
 
 
 const question = prompt('Введи свое имя', 'Имя')
-if (question === 'Елисей' || question === 'елисей') {
+if (question === 'Елисей' || question === 'елисей' || question === 'елисей ' || question === 'Елисей ' ) {
     elemGreet.innerHTML = 'Привет дорогой Елисей'
 }
 
