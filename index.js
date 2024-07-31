@@ -7,6 +7,8 @@ const elemGreet = document.querySelector('.greetings')
 const question = prompt('Введи свое имя', 'Имя')
 if (question === 'Елисей' || question === 'елисей' || question === 'елисей ' || question === 'Елисей ' ) {
     elemGreet.innerHTML = 'Привет дорогой Елисей'
+} else if ( question === 'Алина' || question === 'алина' || question === 'алина ' || question === 'Алина ') {
+    elemGreet.innerHTML = 'Привет дорогая Алинкааа!!'
 }
 
 elemButton.addEventListener('click', function() {
