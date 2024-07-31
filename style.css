@@ -1,0 +1,15 @@
+.greetings {
+    color: red;
+    transition: color   .5s ease;
+}
+
+.greetings:hover {
+    color: yellow;
+}
+
+.js-input,
+.js-button {
+    width: 80px;
+}
+
+ 
