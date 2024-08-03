@@ -7,18 +7,18 @@ const elemFoto = document.querySelector('.foto')
 
 
 const question = prompt('Введи свое имя', 'Имя')
-    name = question.trim()
-    if (name === 'Рувим') {
+    name = question.trim().slice(0,1).toUpperCase(1) + question.slice(1)
+    if (name === 'Рувим' || name === 'Ruvim') {
         elemFoto.innerHTML = `<img src="img/photo_2024-08-03_15-02-49.jpg" alt="фотка Рувима"></img>`
-    } else if (name === 'Елисей') {
+    } else if (name === 'Елисей' || name === 'Elisei') {
         elemFoto.innerHTML = `<img src="img/20170717_1439543.png" alt="фотка Елисея"></img>`
-    } else if (name === 'Виталик') {
+    } else if (name === 'Виталик' || name === 'Vitalik') {
         elemFoto.innerHTML = `<img src="img/20170717_143953.jpg" alt="фотка Виталика"></img>`
-    } else if (name === 'Вера') {
+    } else if (name === 'Вера' || name === 'Vera') {
         elemFoto.innerHTML = `<img src="img/20170711_164844.jpg" alt="фотка Веры"></img>`
-    } else if (name === 'Алина') {
+    } else if (name === 'Алина' || name === 'Alina') {
         elemFoto.innerHTML = `<img src="img/20170711_154742.png" alt="фотка Алины"></img>`
-    }  else if (name === 'Надя') {
+    }  else if (name === 'Надя' || name === 'Nadia') {
         elemFoto.innerHTML = `<img src="img/20170711_143939.jpg" alt="фотка Нади"></img>`
     }
      elemGreet.innerHTML = `Привет  ${name}`

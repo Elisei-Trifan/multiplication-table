@@ -18,9 +18,20 @@
     transform: rotate(180 deg);
 }
 
-.js-input,
+.js-input {
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+}
+
 .js-button {
     width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.js-button:hover {
+    background-color: red;
 }
 
 .foto {
