@@ -1,10 +1,21 @@
-.greetings {
-    color: rebeccapurple;
-    transition: color   .5s ease;
+.center {
+    text-align: center; 
+    margin-top: 80px;
 }
 
+
+
+.greetings {
+    display: block;
+    color: rebeccapurple;
+    transition-property: color;
+    transition-duration: 0.5s ;
+    transition-timing-function: ease;
+   
+}
 .greetings:hover {
     color: yellow;
+    transform: rotate(180 deg);
 }
 
 .js-input,
@@ -12,4 +23,15 @@
     width: 80px;
 }
 
- 
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    max-width: 400px;
+    height: 400px;
+    overflow: hidden;
+    
+
+}
+
