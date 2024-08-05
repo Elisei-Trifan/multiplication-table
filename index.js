@@ -43,5 +43,5 @@ elemButton.addEventListener('click', function() {
         }
      }
     return elemOutput.innerHTML = asd.join('<br>')
-   
+
 })
